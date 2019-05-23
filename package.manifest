@@ -1,0 +1,16 @@
+﻿{
+    javascript: [
+        "~/App_Plugins/Geocoder/googlemapgeocoder.controller.js"
+    ],
+    propertyEditors: [
+        {
+            alias: "Geocoder",
+            name: "Geocoder",
+            editor:
+            {
+                view: "~/App_Plugins/Geocoder/googlemapgeocoder.html",
+                valueType: "JSON"
+            }
+        }
+    ]   
+}
